@@ -11,12 +11,10 @@ for i in range(len(mass)):
         sch2+=1
     else:
         sch3+=1
+
 all=sch1+sch2
 chsl05=sch1*100/all
 chsl50=sch2*100/all
-
-#GREEN = '\033[42m'
-#RED = '\033[41m'
 
 def bar(values, total_length=50):
     total = sum(values)
